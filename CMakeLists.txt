@@ -5,7 +5,9 @@
 ## This source code is released under the New BSD License.
 #
 
-CMAKE_MINIMUM_REQUIRED(VERSION 3.3)
+IF(NOT ICET_SUBMODULE)
+  CMAKE_MINIMUM_REQUIRED(VERSION 3.3)
+ENDIF()
 
 PROJECT(ICET C)
 
